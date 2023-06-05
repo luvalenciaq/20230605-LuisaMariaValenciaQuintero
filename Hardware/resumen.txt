@@ -1,0 +1,4 @@
+Listar 3 partes internas de la computadora
+CPU 
+Memoria RAM
+Placa madre
