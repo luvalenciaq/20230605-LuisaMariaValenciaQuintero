@@ -1,0 +1,46 @@
+  251  git init
+  252  git branch -M main
+  253  git remote add origin https://github.com/luvalenciaq/20230605-LuisaMariaValenciaQuintero.git
+  254  git remote -v
+  255  touch comandos.txt main.js index.html
+  256  git add .
+  257  git commit -m "commit 01 de LuisaMariaValenciaQuintero"
+  258  git push origin main
+  259  git branch feature01
+  260  git checkout feature01
+  261  mkdir Terminal Hardware
+  262  cd Terminal
+  263  touch resumen.txt
+  264  cd ..
+  265  cd Hardware
+  266  touch resumen.txt
+  267  git status
+  268  cd ..
+  269  git add .
+  270  git commit -m "commit 02 de LuisaMariaValenciaQuintero"
+  271  git push origin feature01
+  272  git branch feature02
+  273  git checkout feature02
+  274  cd Terminal
+  275  git status
+  276  cd ..
+  277  cd Hardware
+  278  git status
+  279  git add .
+  280  git commit -m ""commit 02 de LuisaMariaV
+  281  git status
+  282  git add .
+  283  git commit -m "commit 03 LuisaMariaValenciaQuintero"
+  284  git push origin feature02
+  285  cd ..
+  286  cd Terminal
+  287  git status
+  288  git add .
+  289  git commit -m "commit 04 LuisaMariaValenciaQuintero"
+  290  git push origin feature02
+  291  git status
+  292  git checkout main
+  293  cd ..
+  294  ls
+  295  mv comandos.txt comandosUtilizados.txt
+  296  history 50
