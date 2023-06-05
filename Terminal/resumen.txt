@@ -1,0 +1,6 @@
+Listar 5 comandos aprendidos en clase
+cd 
+mv
+ls 
+git init
+git status
